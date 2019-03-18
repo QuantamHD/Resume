@@ -1,3 +1,4 @@
 # Ethan Mahintorabi's Resume
 
-This is the latex project for my resume.
+![Drag Racing](https://raw.githubusercontent.com/QuantamHD/Resume/master/images/front_page.png)
+
