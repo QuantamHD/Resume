@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Ethan}}}}} % First name
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mahintorabi}}}}} % Last name
+	
+	\vspace{6pt}
+	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\hspace{0in}
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Phone}{12}{(909) 244--7080}\\
+	\icon{Github}{12}{\href{https://github.com/QuantamHD}{github.com/QuantamHD}}\\
+	\icon{At}{12}{\href{mailto:emahintorabi@gmail.com}{emahintorabi@gmail.com}}\\	
+\end{minipage}
+
+\vspace{2cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.45\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{TECHNOLOGIES}
+
+	\begin{minipage}[t]{0.3\textwidth}
+		\large\textbf{Postgres}\\
+		\large\textbf{Phoenix}\\
+		\large\textbf{MySQL}\\
+		\large\textbf{Rails}\\
+		\large\textbf{Kafka}\\
+		\large\textbf{Kubernetes}\\
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.05\textwidth}
+		\large---\\
+		---\\
+		---\\
+		---\\
+		---\\
+		---
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.6\textwidth}
+		\large4 years experience\\
+		4 years experience\\
+		2 years experience\\
+		2 years experience\\
+		2 years experience\\
+		1 year experience
+	\end{minipage}
+	
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.45\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Languages}\\
+	\begin{minipage}[t]{0.3\textwidth}
+		\large\textbf{Java}\\
+		\large\textbf{Elixir}\\
+		\large\textbf{SQL}\\
+		\large\textbf{C}\\
+		\large\textbf{Ruby}\\
+		\large\textbf{Python}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.05\textwidth}
+		\large---\\
+		---\\
+		---\\
+		---\\
+		---\\
+		---
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.6\textwidth}
+		\large4 years experience\\
+		4 years experience\\
+		4 years experience\\
+		2 years experience\\
+		2 years experience\\
+		1 year experience
+	\end{minipage}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{2017 -- Current}
+		{Software Engineer \textnormal{-- IBM Hybrid Cloud}}
+		{IBM}
+		{
+			\vspace*{-\baselineskip}
+			\begin{itemize}
+				\item[$-$] Maintained an existing Ruby backend for a file transfer product in the IBM Cloud product stack.
+				\item[$-$] Designed and built out a WebSocket delivery microservice for all the IBM Cloud Products based on a shared Kafka component. 
+				\item[$-$] Designed, built and performed product management duties for a new product in the IBM Cloud that allows non-technical users to automate their file transfer workflows with a block-based editor similar to scratch.
+				\item[$-$] I am currently building a new cloud filesystem product that will allow users to unify their object and on-premise storage across all data centers and cloud environments.
+			\end{itemize}
+			\texttt{Ruby}\slashsep\texttt{Elixir}\slashsep\texttt{Kubernetes}\slashsep\texttt{Kafka}}
+	\entry
+		{2015 -- 2018\\\footnotesize{part time}}
+		{Co-Founder and Backend Developer}
+		{Moder Inc.}
+		{
+			\vspace*{-\baselineskip}
+			\begin{itemize}
+				\item[$-$] Built the Android app and backend for a photo sharing app called Moder.
+				\item[$-$] Built the backend for an app that allowed Gonzaga students to see and rate the food at our dining hall that which made a splash in the local Spokane news https://bit.ly/1R73VSP
+				\item[$-$] Built the backend for an app that allowed a local grocery store to send coupons to their customers.
+			\end{itemize}
+			\texttt{Elixir}\slashsep\texttt{Android}\slashsep\texttt{Java}}
+	\entry
+		{2013 -- 2014\\\footnotesize{part time}}
+		{iOS and Android Developer}
+		{Nerdy Dragon}
+		{
+			\vspace*{-\baselineskip}
+			\begin{itemize}
+				\item[$-$] Worked on various one off marking sites for new video game releases.
+				\item[$-$] Built an addon keyboard for Android and iOS that let you create and use custom stickers in messaging apps called ArTomoji.
+			\end{itemize}
+			\texttt{iOS}\slashsep\texttt{Android}\slashsep\texttt{Java}}
+	\entry
+		{2013 -- 2014\\\footnotesize{part time}}
+		{Junior Java Developer}
+		{Home Inspector Pro.}
+		{
+			\vspace*{-\baselineskip}
+			\begin{itemize}
+				\item[$-$] Created a service that would automatically add missed phone calls from the support phone line to a dashboard for support engineers.
+				\item[$-$] Created a license database and generator for the support engineers; so that they could reissue licenses to customers without having to email the owner to do it for them.
+			\end{itemize}
+			\texttt{JavaEE}\slashsep\texttt{JavaScript}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\newpage
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2014 -- 2018}
+		{Bachelor's of Science \textnormal{-- Computer Science}}
+		{Gonzaga University}
+		{}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
